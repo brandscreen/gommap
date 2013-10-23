@@ -1,9 +1,9 @@
 package gommap_test
 
 import (
+	. "github.com/brandscreen/gocheck"
+	"github.com/brandscreen/gommap"
 	"io/ioutil"
-	. "launchpad.net/gocheck"
-	"launchpad.net/gommap"
 	"os"
 	"path"
 	"syscall"
